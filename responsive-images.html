@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width" />
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <title>Responsive Images</title>
+</head>
+<body>
+   <div class="wrapper">
+       <ul class="gallery">
+           <li>
+                <picture>
+                  <source srcset="img/WaterL.jpg" media="(min-width: 1500px)" />
+                  <source srcset="img/WaterM.jpg" media="(min-width: 700px) and (max-width: 1500px)" />
+                  <source srcset="img/WaterS.jpg" media="(max-width: 700px)" />
+                  <img src="img/WaterM.jpg" alt="Sunset over Water" />
+                </picture>
+           </li>
+           <li>
+                <picture>
+                  <source srcset="img/RockL.jpg" media="(min-width: 1500px)" />
+                  <source srcset="img/RockM.jpg" media="(min-width: 700px) and (max-width: 1500px)" />
+                  <source srcset="img/RockS.jpg" media="(max-width: 700px)" />
+                  <img src="img/RockM.jpg" alt="Rock Climbing" />
+               </picture>
+           </li>
+           <li>
+                <picture>
+                  <source srcset="img/StageL.jpg" media="(min-width: 1500px)" />
+                  <source srcset="img/StageM.jpg" media="(min-width: 700px) and (max-width: 1500px)" />
+                  <source srcset="img/StageS.jpg" media="(max-width: 700px)" />
+                  <img src="img/StageM.jpg" alt="On Stage" />
+                </picture>
+           </li>
+           <li>
+                <picture>
+                  <source srcset="img/CrowdL.jpg" media="(min-width: 1500px)" />
+                  <source srcset="img/CrowdM.jpg" media="(min-width: 700px) and (max-width: 1500px)" />
+                  <source srcset="img/CrowdS.jpg" media="(max-width: 700px)" />
+                  <img src="img/CrowdM.jpg" alt="Crowd at a concert" />
+                </picture>
+           </li>
+           <li>
+                <picture>
+                  <source srcset="img/GuitarL.jpg" media="(min-width: 1500px)" />
+                  <source srcset="img/GuitarM.jpg" media="(min-width: 700px) and (max-width: 1500px)" />
+                  <source srcset="img/GuitarS.jpg" media="(max-width: 700px)" />
+                  <img src="img/GuitarM.jpg" alt="Guitar" />
+                </picture>
+           </li>
+           <li>
+                <picture>
+                  <source srcset="img/PakistanL.jpg" media="(min-width: 1500px)" />
+                  <source srcset="img/PakistanM.jpg" media="(min-width: 700px) and (max-width: 1500px)" />
+                  <source srcset="img/PakistanS.jpg" media="(max-width: 700px)" />
+                  <img src="img/PakistanM.jpg" alt="Hills in Pakistan" />
+                </picture>
+           </li>
+           <li>
+                <picture>
+                  <source srcset="img/CarrotsL.jpg" media="(min-width: 1500px)" />
+                  <source srcset="img/CarrotsM.jpg" media="(min-width: 700px) and (max-width: 1500px)" />
+                  <source srcset="img/CarrotsS.jpg" media="(max-width: 700px)" />
+                  <img src="img/CarrotsM.jpg" alt="A bunch of carrots" />
+                </picture>
+           </li>
+       </ul>
+       <footer>
+       <p><a href="https://500px.com/markusspiske">Markus Spiske</a></p>
+       <p><a href="https://500px.com/webmaster85">Yinan Chen</a></p>
+       <p><a href="https://500px.com/fahimakhter">Fahim Akhter</a></p>
+       </footer>
+   </div>    
+</body>
+</html>
